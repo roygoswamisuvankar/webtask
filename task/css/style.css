@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    float: right;
+}
+tr,td{
+    padding: 5px 10px;
+}
+.container{
+    width: 100vw;
+}
+table{
+    position: relative;
+    left: 20%;
+}
+input[type=submit]{
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+}
+input[type=submit]:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+    color: white;
+}
